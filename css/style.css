@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstSection{
+    padding-top: 20%;
+}
+ .firstSectionImg{
+    width: 600px;
+    margin-left: 100px;
+    margin-top:70px;
+    
+} 
+
+ .aboutSectionHead{
+    margin-top: 140px;
+ }
+
+
+
+ .projectSectionHead{
+    margin-top: 150px;
+} 
+.projectSectionIcon{
+    font-size: 90px;
+}
+.contactSectionHead{
+    margin-top: 180px;
+}
+
+
+
+@media all and (max-width:768px) {
+    .firstSection{
+        padding-top: 50px;
+    }
+    
+    .firstSectionImg{
+        width: 600px;
+        margin-left: 0px;
+        margin-top:35px;
+        object-fit: contain;
+    } 
+    .contactSectionHead{
+        margin-top: 50px;
+    }
+    .projectSectionHead{
+        margin-top: 20px;
+    } 
+    .aboutSectionHead{
+        margin-top: 40px;
+     }
+}
+
+
+   
